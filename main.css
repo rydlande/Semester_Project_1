@@ -32,13 +32,23 @@ h1 {
 
 .logo {
     display: flex;
+    justify-content: space-between;
+}
+.NAV li {
+    display: inline;
+}
+.NAV li a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 8px;
 }
 
   /* HEADER */
 
 
 
-  
+
 
 
 
@@ -60,7 +70,7 @@ h1 {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 30px;
     padding-left: 25px;
     font-size: 15px;
 }
@@ -73,30 +83,23 @@ h1 {
 .exhibitions p {
     text-align: center;
 }
+.høyrestilt {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+}
 .opening {
     font-size: 12px;
     font-weight: bold;
-    text-align: left;
+    flex-direction: column;
 }
 .hours {
     font-size: 12px;
     font-weight: lighter;
-    text-align: left;
 }
-.logo {
-    display: flex;
-    justify-content: space-between;
+.title1 {
+    padding-bottom: 60px;
 }
-.NAV li {
-    display: inline;
-}
-.NAV li a {
-    color: white;
-    text-decoration: none;
-    font-weight: lighter;
-    padding: 8px;
-}
-
   /* FORSIDE */
 
 
@@ -111,7 +114,11 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px
+    height: 180px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .exhibitions-overview {
     align-content: center;
@@ -147,6 +154,51 @@ h1 {
   /* EXHIBITIONS */
 
 
+
+
+
+  /* EVENTS */
+.events-picture {
+    background-image: url("./media/events.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    /* EVENTS */
+
+
+
+
+
+
+
+
+
+    /* VISIT */
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.NAV li {
+    display: inline;
+}
+.NAV li a {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 8px;
+}
+.title2 {
+    color: black;
+    padding: 30px;
+}
+    /* VISIT */
 
 
 
