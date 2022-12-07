@@ -181,14 +181,15 @@ h1 {
 
     /* VISIT */
 
-.logo {
+.logo-visit {
     display: flex;
     justify-content: space-between;
+    padding: 8px;
 }
-.NAV li {
+.NAV-visit li {
     display: inline;
 }
-.NAV li a {
+.NAV-visit li a {
     color: black;
     text-decoration: none;
     font-weight: lighter;
