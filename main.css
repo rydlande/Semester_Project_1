@@ -150,6 +150,12 @@ h1 {
     align-content: center;
     border-radius: 5%;
 }
+.bildeogtekst {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-weight: bold;
+}
   /* EXHIBITIONS */
 
 
@@ -224,6 +230,13 @@ h1 {
     color: black;
     padding: 30px;
 }
+.visit-bold {
+    font-weight: bold;
+}
+.visit-thin {
+    font-weight: lighter;
+    padding-bottom: 16px;
+}
     /* VISIT */
 
 
@@ -245,7 +258,7 @@ h1 {
     padding-bottom: 30px;
 }
 a.sendmeback:link, a:visited {
-    background-color: #2f6d58;
+    background-color: #0d9647;
       color: white;
       padding: 16px 20px;
     text-align: center;
@@ -258,6 +271,12 @@ a.sendmeback:hover, a:active {
     background-color: #4ab2bd;
 }
 /* PAGE REBUILD */
+
+
+
+
+
+
 
 
 /* FOOTER */ 
@@ -315,3 +334,4 @@ a.sendmeback:hover, a:active {
     background-position: center;
     min-height: 85px; 
 }
+/* FOOTER */ 
