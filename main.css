@@ -8,6 +8,10 @@
 
 body {
     font-family: "Proxima Nova";
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .gridcontainer {
     display: grid;
@@ -255,3 +259,59 @@ a.sendmeback:hover, a:active {
 }
 /* PAGE REBUILD */
 
+
+/* FOOTER */ 
+.footer-index {
+    background-image: url("./media/footer-lilla.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85px; 
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.copyright {
+    text-align: center;
+    font-size: 8px;
+    padding-left: 16px;
+    padding-right: 90px;
+}
+.some {
+    font-size: 10px;
+}
+.some > i {
+    padding-right: 10px;
+}
+.footer-events {
+    background-image: url("./media/footer-rod.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85px; 
+}
+.footer-exhibitions {
+    background-image: url("./media/footer-rod.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85px; 
+}
+.footer-pagerebuild {
+    background-image: url("./media/footer-gronn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85px; 
+}
+.footer-visit {
+    background-image: url("./media/footer-gronn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85px; 
+}
