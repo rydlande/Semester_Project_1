@@ -29,7 +29,6 @@ h1 {
 
 
   /* HEADER */
-
 .logo {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,6 @@ h1 {
     font-weight: lighter;
     padding: 8px;
 }
-
   /* HEADER */
 
 
@@ -54,7 +52,6 @@ h1 {
 
 
   /* FORSIDE */
-
 .forside {
     background-image: url("./media/forside.png");
     background-size: cover;
@@ -108,7 +105,6 @@ h1 {
 
 
   /* EXHIBITIONS */
-
 .exhibitions-picture {
     background-image: url("./media/exhibitions.png");
     background-size: cover;
@@ -150,7 +146,6 @@ h1 {
     align-content: center;
     border-radius: 5%;
 }
-
   /* EXHIBITIONS */
 
 
@@ -168,6 +163,33 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 40px;
+}
+.event {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.event-text {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    padding-left: 16px;
+    padding-right: 30px;
+}
+.date {
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 60px;
+}
+.event-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+.event-info {
+    font-weight: lighter;
+    font-size: 14px;
 }
     /* EVENTS */
 
@@ -180,7 +202,6 @@ h1 {
 
 
     /* VISIT */
-
 .logo-visit {
     display: flex;
     justify-content: space-between;
@@ -207,7 +228,6 @@ h1 {
 
 
 /* PAGE REBUILD */
-
 .rebuildingtext {
     text-align: center;
     text-decoration: none;
@@ -233,5 +253,5 @@ a.sendmeback:link, a:visited {
 a.sendmeback:hover, a:active {
     background-color: #4ab2bd;
 }
-
 /* PAGE REBUILD */
+
