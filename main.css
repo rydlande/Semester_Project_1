@@ -7,11 +7,21 @@
 }
 
 body {
-    font-family: "Proxima Nova";
-    min-height: 100vh; 
+    font-family: "Proxima Nova"; 
     margin: 0; 
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+}
+header {
+    min-height: 10vh;
+}
+main {
+    min-height: 70vh;
+}
+footer {
+    min-height: 20vh;
 }
 .gridcontainer {
     display: grid;
@@ -252,23 +262,28 @@ h1 {
 .woopsie {
     text-decoration: none;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 42px;
     font-weight: bold;
     padding-bottom: 30px;
 }
 a.sendmeback:link, a:visited {
-    background-color: #0d9647;
+    background-color: #8a61bc;
       color: white;
       padding: 16px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-weight: bolder;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 a.sendmeback:hover, a:active {
-    background-color: #4ab2bd;
+    background-color: #d95145;
+}
+.oppussing {
+    max-width: 250px;
+    margin: 30px;
+
 }
 /* PAGE REBUILD */
 
@@ -293,6 +308,8 @@ a.sendmeback:hover, a:active {
     justify-content: space-between;
     padding-right: 30px;
     padding-top: 60px;
+    justify-self: flex-end;
+    height: 100%;
 }
 .copyright {
     text-align: center;
@@ -302,6 +319,7 @@ a.sendmeback:hover, a:active {
 }
 .some {
     font-size: 10px;
+    width: 65px;
 }
 .some > i {
     padding-right: 10px;
