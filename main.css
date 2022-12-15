@@ -222,6 +222,12 @@ h1 {
 
 
     /* VISIT */
+.sti {
+    background-image: url("./media/sti.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .logo-visit {
     display: flex;
     justify-content: space-between;
@@ -316,10 +322,12 @@ a.sendmeback:hover, a:active {
     font-size: 8px;
     padding-left: 16px;
     padding-right: 90px;
+    margin-top: 60px;
 }
 .some {
     font-size: 10px;
     width: 65px;
+    margin-top: 60px;
 }
 .some > i {
     padding-right: 10px;
@@ -329,27 +337,27 @@ a.sendmeback:hover, a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 85px; 
+    min-height: 20vh;
 }
 .footer-exhibitions {
     background-image: url("./media/footer-rod.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 85px; 
+    min-height: 20vh;
 }
 .footer-pagerebuild {
     background-image: url("./media/footer-gronn.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 85px; 
+    min-height: 20vh; 
 }
 .footer-visit {
     background-image: url("./media/footer-gronn.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 85px; 
+    min-height: 20vh; 
 }
 /* FOOTER */ 
