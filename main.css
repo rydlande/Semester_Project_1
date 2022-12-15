@@ -222,12 +222,6 @@ h1 {
 
 
     /* VISIT */
-.sti {
-    background-image: url("./media/sti.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .logo-visit {
     display: flex;
     justify-content: space-between;
@@ -244,15 +238,40 @@ h1 {
 }
 .title2 {
     color: black;
-    padding: 30px;
+    padding-bottom: 40px;
 }
 .visit-bold {
     font-weight: bold;
+    font-size: 12px;
 }
 .visit-thin {
     font-weight: lighter;
     padding-bottom: 16px;
+    font-size: 12px;
 }
+.visit-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.visit-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.visit-icon {
+    padding-right: 8px;
+}
+.visit-dino1 img {
+    width: 70px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.jævladino {
+    display: flex;
+    flex-direction: row;
+}
+
     /* VISIT */
 
 
@@ -274,7 +293,7 @@ h1 {
     padding-bottom: 30px;
 }
 a.sendmeback:link, a:visited {
-    background-color: #8a61bc;
+    background-color: #4c846d;
       color: white;
       padding: 16px 20px;
     text-align: center;
@@ -284,7 +303,7 @@ a.sendmeback:link, a:visited {
     margin-top: 10px;
 }
 a.sendmeback:hover, a:active {
-    background-color: #d95145;
+    background-color: #8a61bc;
 }
 .oppussing {
     max-width: 250px;
