@@ -50,6 +50,9 @@ h1 {
 .liten-logo {
     width: 40px;
 }
+.stor-logo {
+    width: 110px;
+}
 .NAV li {
     display: inline-block;
 }
@@ -418,6 +421,7 @@ a.sendmeback:hover {
     padding-left: 16px;
     padding-right: 90px;
     margin-top: 60px;
+    padding-bottom: 8px;
 }
 .some {
     font-size: 10px;
@@ -465,6 +469,14 @@ a.sendmeback:hover {
 
 
 /* media queries */
+@media(maks-width: 768px) {
+.stor-logo {
+    display: none;
+}
+}
+
+
+
 @media(min-width: 768px) {
 
 
@@ -492,6 +504,11 @@ h1 {
 /* HEADER */
 .liten-logo {
     display: none;
+    padding: 8px;
+}
+.NAV li a {
+    padding: 20px;
+    font-size: 20px;
 }
 /* HEADER */
 
@@ -502,7 +519,7 @@ h1 {
 
 /* FORSIDE */
 .forside {
-    height: 220px;
+    height: 300px;
 }
 .welcome {
     padding-top: 40px;
@@ -543,7 +560,7 @@ h1 {
 
 /* EXHIBITIONS */
 .exhibitions-picture {
-    height: 220px;
+    height: 300px;
 }
 .exhibition-box {
     max-width: 700px;
@@ -588,7 +605,7 @@ h1 {
 
 /* EVENT */
 .events-picture {
-    height: 220px;
+    height: 300px;
 }
 .date {
     font-size: 16px;
@@ -603,5 +620,42 @@ h1 {
     max-width: 700px;
 }
 /* EVENT */
+
+
+
+/* FOOTER */ 
+.footer-index {
+    background-image: url("./media/footer-lilla-MQ.png");
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-top: 15%;
+}
+.copyright {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.some {
+    font-size: 16px;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.footer-events {
+    background-image: url("./media/footer-rod-MQ.png");
+}
+.footer-exhibitions {
+    background-image: url("./media/footer-rod-MQ.png");
+}
+.footer-pagerebuild {
+    background-image: url("./media/footer-gronn-MQ.png");
+}
+.footer-visit {
+    background-image: url("./media/footer-gronn-MQ.png");
+}
+/* FOOTER */ 
 
 }
