@@ -47,6 +47,9 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+.liten-logo {
+    width: 40px;
+}
 .NAV li {
     display: inline-block;
 }
@@ -487,7 +490,7 @@ h1 {
 
 
 /* HEADER */
-.logo-small {
+.liten-logo {
     display: none;
 }
 /* HEADER */
