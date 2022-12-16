@@ -48,7 +48,7 @@ h1 {
     justify-content: space-between;
 }
 .NAV li {
-    display: inline;
+    display: inline-block;
 }
 .NAV li a {
     color: white;
@@ -56,6 +56,13 @@ h1 {
     font-weight: lighter;
     padding: 8px;
 }
+.NAV li a:hover {
+    text-decoration: underline;
+}
+.title3 {
+    padding-bottom: 65px;
+}
+
   /* HEADER */
 
 
@@ -109,8 +116,59 @@ h1 {
     font-weight: lighter;
 }
 .title1 {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
+.button-exhibitions a {
+    font-weight: lighter;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.662);
+    padding: 8px;
+    width: 100px;
+    margin: auto auto 30px auto;
+    border-radius: 3px;
+}
+.explore {
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px;
+}
+.explore-box {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 8px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-between;
+    color: black;
+}
+.explore-box-text {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.for- {
+    font-size: 13px;
+    padding-bottom: 3px;
+    font-weight: medium;
+}
+.for-text {
+    font-weight: lighter;
+    font-size: 11px;
+}
+.trykkpåmeg {
+    text-decoration: none;
+    color: black;
+    font-weight: medium;
+    font-size: 11px;
+    padding-top: 8px;
+}
+
+
   /* FORSIDE */
 
 
@@ -130,41 +188,34 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
-.exhibitions-overview {
-    align-content: center;
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    justify-content: space-between;
-    display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-} 
-.card {
+.exhibition-boxes {
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+.exhibition-box {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 8px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     justify-content: space-between;
-    padding: 8px;
-    margin-bottom: 20px;
+    color: black;
 }
-.card-img {
+.exhibition-box-text {
     display: flex;
-    align-content: center;
-    width: 200px;
-    object-fit: contain;
-    justify-content: center;
-    height: 200px;
-    background-color: white;
-    padding: 8px;
-    align-content: center;
-    border-radius: 5%;
-}
-.bildeogtekst {
-    display: flex;
-    text-align: center;
     flex-direction: column;
-    font-weight: bold;
+    color: black;
+}
+.exhibition-title {
+    font-size: 13px;
+    padding-bottom: 3px;
+    font-weight: medium;
+}
+.exhibition-text {
+    font-weight: lighter;
+    font-size: 11px;
 }
   /* EXHIBITIONS */
 
@@ -292,18 +343,19 @@ h1 {
     font-weight: bold;
     padding-bottom: 30px;
 }
-a.sendmeback:link, a:visited {
+a.sendmeback {
     background-color: #4c846d;
-      color: white;
-      padding: 16px 20px;
+    color: white;
+    padding: 16px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-weight: bolder;
     margin-top: 10px;
 }
-a.sendmeback:hover, a:active {
+a.sendmeback:hover {
     background-color: #8a61bc;
+    color: white;
 }
 .oppussing {
     max-width: 250px;
