@@ -7,7 +7,7 @@ This site is for my semester project for my first semester at Noroff School of T
 
 ## Description
 
-In the semester project, we were to create a website for a science museum. The target audience was primary and middle school children (ages 7-15) and families with young children. We were provided the media assets, such as text and images.
+In the semester project, we were to create a website for a museum called Community Science Museum. The target audience was primary and middle school children (ages 7-15) and families with young children. We were provided the media assets, such as text and images. I made the page using only HTML and CSS.
 
 ## Technologies Used
 
